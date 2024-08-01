@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0"
+      prefWidth="320.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.app.controller.FrameGridController">
+    <children>
+        <Button fx:id="infoButton" mnemonicParsing="false" prefWidth="80.0" text="Info"/>
+        <Button fx:id="addButton" mnemonicParsing="false" prefWidth="80.0" text="Add"/>
+        <Button fx:id="editButton" mnemonicParsing="false" prefWidth="80.0" text="Edit"/>
+        <Button fx:id="deleteButton" mnemonicParsing="false" prefWidth="80.0" text="Delete"/>
+        <ComboBox fx:id="timePeriod" prefWidth="150.0" promptText="Select Time Period"/>
+    </children>
+</HBox>
